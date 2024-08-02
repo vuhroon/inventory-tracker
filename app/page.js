@@ -187,7 +187,7 @@ export default function Home() {
           </Typography>
         </Box>
         <Box>
-          <input name="searchItems" onChange={(e) => {
+          <input name="searchItems" className="searchInput" placeholder="Search Items" onChange={(e) => {
             let value = e.target.value;
             searchItem(value);
           }} />
